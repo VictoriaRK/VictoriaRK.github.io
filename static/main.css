@@ -1,4 +1,11 @@
-.vertical-scroll {
+.side-box {
     overflow-y: auto;
     height: 300px;
+}
+.centre {
+    overflow-y: auto;
+    height: 300px;
+}
+div{
+    border-stle:solid;
 }
