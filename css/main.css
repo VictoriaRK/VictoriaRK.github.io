@@ -35,13 +35,13 @@ div{
   padding: 0;
 }
 
-#header-container {
+#header-container, #content {
   display: flex;
 }
 #header-container > div {
     border: none;
 }
-#corner-name {
+#corner-name, #corner-face  {
   width: 25%;
   /* Just so it's visible */
 }
@@ -54,10 +54,8 @@ div{
     color: #880015;
     text-align: center;
 }
-#corner-face {
-  width: 25%;
-  
-  /* Just so it's visible */
+#left-side, #right-side {
+    width: 30%;
 }
 
 
