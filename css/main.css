@@ -38,3 +38,26 @@ div{
   margin: 0;
   padding: 0;
 }
+
+#corner-name {
+    width: 25%;
+    /* border-radius: 50%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+#title {
+    width: 50%;
+    /* margin-left: auto;
+    margin-right: auto;
+    text-align: center; */
+}
+
+#corner-face {
+    width: 25%;
+    /* border-radius: 50%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto; */
+}
