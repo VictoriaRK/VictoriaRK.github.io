@@ -82,3 +82,7 @@ p{
     margin-left: 2.5%;
     margin-right: 2.5%;
 }
+
+ul.centre-side{
+     list-style-type: none;
+}
