@@ -10,7 +10,7 @@
     height: 300px;
 }
 div{
-    border-style:none;
+    border-style:solid;
 }
 
 .right-side{
