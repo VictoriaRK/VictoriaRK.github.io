@@ -46,6 +46,7 @@ div{
   width: 25%;
   font-family: RX100-Regular;
   text-align: center;
+  align-items: center;
   /* Just so it's visible */
 }
 #title {
