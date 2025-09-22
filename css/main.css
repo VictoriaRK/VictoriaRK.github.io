@@ -39,42 +39,21 @@ div{
   display: flex;
 }
 #corner-name {
-  width: 200px;
-  background: lightblue;
+  width: 25%;
   /* Just so it's visible */
 }
 #title {
+    width: 50%;
+    background: lightblue;
     flex:1;
     font-family: Comico-Regular;
     font-size: 50px;
     color: #880015;
 }
 #corner-face {
-  width: 200px;
-  background: lightblue;
+  width: 25%;
+  
   /* Just so it's visible */
 }
 
 
-#corner-name {
-    width: 25%;
-    /* border-radius: 50%;
-    background-color: white;
-    margin-left: auto;
-    margin-right: auto; */
-}
-
-#title {
-    width: 50%;
-    /* margin-left: auto;
-    margin-right: auto;
-    text-align: center; */
-}
-
-#corner-face {
-    width: 25%;
-    /* border-radius: 50%;
-    background-color: white;
-    margin-left: auto;
-    margin-right: auto; */
-}
