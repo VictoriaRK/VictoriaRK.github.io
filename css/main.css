@@ -38,17 +38,21 @@ div{
 #header-container {
   display: flex;
 }
+#header-container > div {
+    border: none;
+}
 #corner-name {
   width: 25%;
   /* Just so it's visible */
 }
 #title {
     width: 50%;
-    background: lightblue;
+    /* background: lightblue; */
     flex:1;
     font-family: Comico-Regular;
     font-size: 50px;
     color: #880015;
+    text-align: center;
 }
 #corner-face {
   width: 25%;
