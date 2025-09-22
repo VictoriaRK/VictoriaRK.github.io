@@ -21,12 +21,7 @@ div{
 
 /* font-family: Comico-Regular; */
 
-.horizontal-list > ul > div {
-    /* display: inline-block; */
-    border:none;
-    margin: 0;
-    padding: 0;
-}
+
 
 .horizontal-list {
   display: flex;
@@ -40,6 +35,27 @@ div{
   padding: 0;
 }
 
+#header-container {
+  display: flex;
+}
+#corner-name {
+  width: 200px;
+  background: lightblue;
+  /* Just so it's visible */
+}
+#title {
+    flex:1;
+    font-family: Comico-Regular;
+    font-size: 50px;
+    color: #880015;
+}
+#corner-face {
+  width: 200px;
+  background: lightblue;
+  /* Just so it's visible */
+}
+
+
 #corner-name {
     width: 25%;
     /* border-radius: 50%;
@@ -50,9 +66,6 @@ div{
 
 #title {
     width: 50%;
-    font-family: Comico-Regular;
-    font-size: 50px;
-    color: #880015;
     /* margin-left: auto;
     margin-right: auto;
     text-align: center; */
