@@ -10,7 +10,8 @@
     height: 300px;
 }
 div{
-    border-style:solid;
+    border-style:none;
+    margin-bottom: 20px;
 }
 
 .right-side{
@@ -34,6 +35,9 @@ div{
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+#header-container, .side-box, .centre-box {
+    border-style:solid;
 }
 
 #header-container, #content {
@@ -74,5 +78,7 @@ p{
     font-family: RX100-Regular;
 }
 .centre-side {
-    width: 40%;
+    width: 35%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
