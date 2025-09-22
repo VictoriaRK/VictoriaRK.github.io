@@ -27,7 +27,7 @@ div{
     color: #880015;
 }
 
-#head-list {
+.horizontal-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
