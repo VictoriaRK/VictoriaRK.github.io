@@ -1,4 +1,5 @@
 @import url('comico.css');
+@import url('rx-100.css');
 
 .side-box {
     overflow-y: auto;
@@ -43,6 +44,8 @@ div{
 }
 #corner-name, #corner-face  {
   width: 25%;
+  font-family: RX100-Regular;
+  text-align: center;
   /* Just so it's visible */
 }
 #title {
