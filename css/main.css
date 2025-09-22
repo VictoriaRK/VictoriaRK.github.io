@@ -57,3 +57,6 @@ div{
 }
 
 
+img{
+    object-fit: contain;
+}
