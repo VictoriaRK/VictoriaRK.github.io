@@ -1,0 +1,34 @@
+@import url('comico.css');
+
+.side-box {
+    overflow-y: auto;
+    height: 300px;
+}
+.centre {
+    overflow-y: auto;
+    height: 300px;
+}
+div{
+    border-style:solid;
+}
+
+.right-side{
+    float: right;
+}
+.left-side{
+    float: left;
+}
+
+/* font-family: Comico-Regular; */
+
+.title {
+    font-family: Comico-Regular;
+    font-size: 50px;
+    color: red;
+}
+
+#head-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
