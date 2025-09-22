@@ -21,7 +21,7 @@ div{
 
 /* font-family: Comico-Regular; */
 
-.horizontal-list div {
+.horizontal-list > ul > div {
     /* display: inline-block; */
     border:none;
     margin: 0;
