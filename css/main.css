@@ -36,7 +36,7 @@ div{
   margin: 0;
   padding: 0;
 }
-#header-container, .side-box, .centre-box {
+.side-box, .centre-box {
     border-style:solid;
 }
 
