@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Elm App</title>
+    <!-- You can link CSS here -->
+</head>
+<body>
+    <div id="elm-app"></div>
+
+    <!-- We will compile our Elm code to this file name -->
+    <script src="main.js"></script>
+
+    <script>
+        // Initialize the Elm app
+        var app = Elm.Main.init({
+            node: document.getElementById('elm-app')
+        });
+    </script>
+</body>
+</html>
