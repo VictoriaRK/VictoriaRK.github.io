@@ -1,22 +1,21 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Elm App</title>
-    <!-- You can link CSS here -->
-</head>
-<body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A website I made for me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  </head>
+  <body>
     <div id="elm-app"></div>
-
-    <!-- We will compile our Elm code to this file name -->
-    <script src="main.js"></script>
-
+    <script src="elm.js"></script>
     <script>
-        // Initialize the Elm app
-        var app = Elm.Main.init({
-            node: document.getElementById('elm-app')
-        });
+      const elmDiv = document.querySelector('#elm-app');
+      if (elmDiv) {
+        var myApp = Elm.Main.embed(elmDiv);
+      }
     </script>
-</body>
+  </body>
 </html>
