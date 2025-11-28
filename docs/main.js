@@ -4378,6 +4378,7 @@ function _Browser_load(url)
 		}
 	}));
 }
+var $author$project$Main$init = 0;
 var $elm$core$Basics$EQ = 1;
 var $elm$core$Basics$GT = 2;
 var $elm$core$Basics$LT = 0;
@@ -5183,11 +5184,11 @@ var $elm$browser$Browser$sandbox = function (impl) {
 		});
 };
 var $author$project$Main$update = F2(
-	function (msg, model) {
+	function (msg, score) {
 		if (!msg) {
-			return model + 1;
+			return score + 1;
 		} else {
-			return model - 1;
+			return (!score) ? 0 : (score - 1);
 		}
 	});
 var $author$project$Main$Decrement = 1;
@@ -5223,11 +5224,11 @@ var $author$project$Main$view = function (model) {
 				$elm$html$Html$button,
 				_List_fromArray(
 					[
-						$elm$html$Html$Events$onClick(1)
+						$elm$html$Html$Events$onClick(0)
 					]),
 				_List_fromArray(
 					[
-						$elm$html$Html$text('-')
+						$elm$html$Html$text('+')
 					])),
 				A2(
 				$elm$html$Html$div,
@@ -5241,15 +5242,15 @@ var $author$project$Main$view = function (model) {
 				$elm$html$Html$button,
 				_List_fromArray(
 					[
-						$elm$html$Html$Events$onClick(0)
+						$elm$html$Html$Events$onClick(1)
 					]),
 				_List_fromArray(
 					[
-						$elm$html$Html$text('+')
+						$elm$html$Html$text('-')
 					]))
 			]));
 };
 var $author$project$Main$main = $elm$browser$Browser$sandbox(
-	{at: 0, aB: $author$project$Main$update, aC: $author$project$Main$view});
+	{at: $author$project$Main$init, aB: $author$project$Main$update, aC: $author$project$Main$view});
 _Platform_export({'Main':{'init':$author$project$Main$main(
 	$elm$json$Json$Decode$succeed(0))(0)}});}(this));
