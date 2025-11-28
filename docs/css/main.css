@@ -1,93 +1,93 @@
-@import url('comico.css');
-@import url('rx-100.css');
+  @import url('comico.css');
+  @import url('rx-100.css');
 
-.side-box {
-    overflow-y: auto;
-    height: 300px;
-}
-.centre {
-    overflow-y: auto;
-    height: 300px;
-}
-div{
-    border-style:none;
-    margin-bottom: 20px;
-}
+  .side-box {
+      overflow-y: auto;
+      height: 300px;
+  }
+  .centre {
+      overflow-y: auto;
+      height: 300px;
+  }
+  div{
+      border-style:none;
+      margin-bottom: 20px;
+  }
 
-.right-side{
-    float: right;
-}
-.left-side{
-    float: left;
-}
+  .right-side{
+      float: right;
+  }
+  .left-side{
+      float: left;
+  }
 
-/* font-family: Comico-Regular; */
-
-
-
-.horizontal-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.side-box, .centre-box {
-    border-style:solid;
-}
-
-#header-container, #content {
-  display: flex;
-}
-#header-container > div {
-    border: none;
-}
-#corner-name, #corner-face  {
-  width: 25%;
-  font-family: RX100-Regular;
-  text-align: center;
-  align-items: center;
-  /* Just so it's visible */
-}
-#title {
-    width: 50%;
-    /* background: lightblue; */
-    flex:1;
-    font-family: Comico-Regular;
-    font-size: 50px;
-    color: #880015;
-    text-align: center;
-}
-#left-side, #right-side {
-    width: 30%;
-}
+  /* font-family: Comico-Regular; */
 
 
-img{
-    object-fit: contain;
-    width: 100%; 
+
+  .horizontal-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     height: 100%;
-    padding: 0%;
-    margin: 0%;
-}
-p{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .side-box, .centre-box {
+      border-style:solid;
+  }
+
+  #header-container, #content {
+    display: flex;
+  }
+  #header-container > div {
+      border: none;
+  }
+  #corner-name, #corner-face  {
+    width: 25%;
     font-family: RX100-Regular;
-}
-.centre-side {
-    width: 35%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-}
+    text-align: center;
+    align-items: center;
+    /* Just so it's visible */
+  }
+  #title {
+      width: 50%;
+      /* background: lightblue; */
+      flex:1;
+      font-family: Comico-Regular;
+      font-size: 50px;
+      color: #880015;
+      text-align: center;
+  }
+  #left-side, #right-side {
+      width: 30%;
+  }
 
-ul.centre-side{
-     list-style-type: none;
-}
 
-body {
-  background-image: url("/pictures/features/crushed-paper.jpg");
-  background-repeat: repeat;
-}
+  img{
+      object-fit: contain;
+      width: 100%; 
+      height: 100%;
+      padding: 0%;
+      margin: 0%;
+  }
+  p{
+      font-family: RX100-Regular;
+  }
+  .centre-side {
+      width: 35%;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+  }
+
+  ul.centre-side{
+       list-style-type: none;
+  }
+
+  body {
+    background-image: url("media/pictures/features/crushed-paper.jpg");
+    background-repeat: repeat;
+  }
